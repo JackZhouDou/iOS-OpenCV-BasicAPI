@@ -7,25 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149E22E9F5718E110F5B7870 /* libPods-ARApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E34746F533E8B9867F8399 /* libPods-ARApp.a */; };
+		1E2EA17F2384E54200FB72FC /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA17E2384E54200FB72FC /* ShowImageViewController.m */; };
 		1E382772221BC9D40068CE64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E382771221BC9D40068CE64 /* AppDelegate.m */; };
-		1E382775221BC9D40068CE64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E382774221BC9D40068CE64 /* ViewController.m */; };
+		1E382775221BC9D40068CE64 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E382774221BC9D40068CE64 /* ViewController.mm */; };
 		1E382778221BC9D40068CE64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E382776221BC9D40068CE64 /* Main.storyboard */; };
 		1E38277A221BC9D70068CE64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E382779221BC9D70068CE64 /* Assets.xcassets */; };
 		1E38277D221BC9D70068CE64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E38277B221BC9D70068CE64 /* LaunchScreen.storyboard */; };
 		1E382780221BC9D70068CE64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E38277F221BC9D70068CE64 /* main.m */; };
+		1E38278A221BFD610068CE64 /* ImageColorExchange.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E382788221BFD610068CE64 /* ImageColorExchange.mm */; };
+		1E38278D221D00C60068CE64 /* UIImage+Opencv.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E38278C221D00C60068CE64 /* UIImage+Opencv.mm */; };
+		1E382795221D2E7A0068CE64 /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1E382793221D2E7A0068CE64 /* haarcascade_frontalface_alt2.xml */; };
+		1E382796221D2E7A0068CE64 /* haarcascade_eye_tree_eyeglasses.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1E382794221D2E7A0068CE64 /* haarcascade_eye_tree_eyeglasses.xml */; };
+		1E3FC26823A22FAC000C4225 /* PDFLoadinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3FC26723A22FAC000C4225 /* PDFLoadinViewController.m */; };
+		1E559DAD2249FCFD00978119 /* VideoPlayAction.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E559DAC2249FCFD00978119 /* VideoPlayAction.mm */; };
+		1E7E107C241FA1930063285E /* BaseUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E107A241FA1930063285E /* BaseUseViewController.m */; };
+		1E7E107D241FA1930063285E /* BaseUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E7E107B241FA1930063285E /* BaseUseViewController.xib */; };
+		1E7E1081241FA2450063285E /* lenna.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7E107F241FA2450063285E /* lenna.png */; };
+		1E7E1082241FA2450063285E /* lennaAll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E7E1080241FA2450063285E /* lennaAll.jpg */; };
+		1E7E1086241FA8440063285E /* DispatchImageShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E1084241FA8440063285E /* DispatchImageShowViewController.m */; };
+		1E7E1087241FA8440063285E /* DispatchImageShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E7E1085241FA8440063285E /* DispatchImageShowViewController.xib */; };
+		1E7E108A241FAAC60063285E /* UIImage+BaseDispatchImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E1089241FAAC60063285E /* UIImage+BaseDispatchImage.mm */; };
+		1E7E108D241FDEAE0063285E /* blur.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7E108C241FDEAE0063285E /* blur.png */; };
+		1E7E10932420F48E0063285E /* shapeTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7E10922420F48E0063285E /* shapeTest.png */; };
+		1E7E10952420F4D00063285E /* shapeClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7E10942420F4CF0063285E /* shapeClose.png */; };
+		1E7E10992421CE6C0063285E /* shapeExchange.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7E10982421CE6C0063285E /* shapeExchange.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2EA17D2384E54200FB72FC /* ShowImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowImageViewController.h; sourceTree = "<group>"; };
+		1E2EA17E2384E54200FB72FC /* ShowImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowImageViewController.m; sourceTree = "<group>"; };
 		1E38276D221BC9D40068CE64 /* ARApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E382770221BC9D40068CE64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E382771221BC9D40068CE64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1E382773221BC9D40068CE64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1E382774221BC9D40068CE64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E382774221BC9D40068CE64 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		1E382777221BC9D40068CE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E382779221BC9D70068CE64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E38277C221BC9D70068CE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E38277E221BC9D70068CE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E38277F221BC9D70068CE64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E382788221BFD610068CE64 /* ImageColorExchange.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageColorExchange.mm; sourceTree = "<group>"; };
+		1E382789221BFD610068CE64 /* ImageColorExchange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageColorExchange.h; sourceTree = "<group>"; };
+		1E38278B221D00C60068CE64 /* UIImage+Opencv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Opencv.h"; sourceTree = "<group>"; };
+		1E38278C221D00C60068CE64 /* UIImage+Opencv.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+Opencv.mm"; sourceTree = "<group>"; };
+		1E38278E221D04BD0068CE64 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1E382793221D2E7A0068CE64 /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		1E382794221D2E7A0068CE64 /* haarcascade_eye_tree_eyeglasses.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye_tree_eyeglasses.xml; sourceTree = "<group>"; };
+		1E3FC26623A22FAC000C4225 /* PDFLoadinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFLoadinViewController.h; sourceTree = "<group>"; };
+		1E3FC26723A22FAC000C4225 /* PDFLoadinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFLoadinViewController.m; sourceTree = "<group>"; };
+		1E559DAB2249FCFD00978119 /* VideoPlayAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayAction.h; sourceTree = "<group>"; };
+		1E559DAC2249FCFD00978119 /* VideoPlayAction.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoPlayAction.mm; sourceTree = "<group>"; };
+		1E7E1079241FA1930063285E /* BaseUseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseUseViewController.h; sourceTree = "<group>"; };
+		1E7E107A241FA1930063285E /* BaseUseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseUseViewController.m; sourceTree = "<group>"; };
+		1E7E107B241FA1930063285E /* BaseUseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseUseViewController.xib; sourceTree = "<group>"; };
+		1E7E107F241FA2450063285E /* lenna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lenna.png; sourceTree = "<group>"; };
+		1E7E1080241FA2450063285E /* lennaAll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lennaAll.jpg; sourceTree = "<group>"; };
+		1E7E1083241FA8440063285E /* DispatchImageShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DispatchImageShowViewController.h; sourceTree = "<group>"; };
+		1E7E1084241FA8440063285E /* DispatchImageShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DispatchImageShowViewController.m; sourceTree = "<group>"; };
+		1E7E1085241FA8440063285E /* DispatchImageShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DispatchImageShowViewController.xib; sourceTree = "<group>"; };
+		1E7E1088241FAAC60063285E /* UIImage+BaseDispatchImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+BaseDispatchImage.h"; sourceTree = "<group>"; };
+		1E7E1089241FAAC60063285E /* UIImage+BaseDispatchImage.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+BaseDispatchImage.mm"; sourceTree = "<group>"; };
+		1E7E108C241FDEAE0063285E /* blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur.png; sourceTree = "<group>"; };
+		1E7E10922420F48E0063285E /* shapeTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shapeTest.png; sourceTree = "<group>"; };
+		1E7E10942420F4CF0063285E /* shapeClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shapeClose.png; sourceTree = "<group>"; };
+		1E7E10982421CE6C0063285E /* shapeExchange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shapeExchange.png; path = ../../../../Documents/shapeExchange.png; sourceTree = "<group>"; };
+		69CDB6A0D106236B85FCE5C8 /* Pods-ARApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARApp/Pods-ARApp.release.xcconfig"; sourceTree = "<group>"; };
+		BBDD018BF8C11136625F63F4 /* Pods-ARApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARApp/Pods-ARApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E34746F533E8B9867F8399 /* libPods-ARApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +82,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				149E22E9F5718E110F5B7870 /* libPods-ARApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17075B25F666DBD5D7F941FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBDD018BF8C11136625F63F4 /* Pods-ARApp.debug.xcconfig */,
+				69CDB6A0D106236B85FCE5C8 /* Pods-ARApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1E382764221BC9D40068CE64 = {
 			isa = PBXGroup;
 			children = (
 				1E38276F221BC9D40068CE64 /* ARApp */,
 				1E38276E221BC9D40068CE64 /* Products */,
+				17075B25F666DBD5D7F941FE /* Pods */,
+				3F0B774BCEA93F23DBEE877E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +119,84 @@
 		1E38276F221BC9D40068CE64 /* ARApp */ = {
 			isa = PBXGroup;
 			children = (
+				1E7E108B241FC4720063285E /* Porject+识别对象模板 */,
+				1E7E107E241FA1B20063285E /* imageList */,
+				1E7E1078241FA1500063285E /* controllerList */,
+				1E382787221BFD440068CE64 /* C++ */,
 				1E382770221BC9D40068CE64 /* AppDelegate.h */,
 				1E382771221BC9D40068CE64 /* AppDelegate.m */,
 				1E382773221BC9D40068CE64 /* ViewController.h */,
-				1E382774221BC9D40068CE64 /* ViewController.m */,
+				1E382774221BC9D40068CE64 /* ViewController.mm */,
+				1E2EA17D2384E54200FB72FC /* ShowImageViewController.h */,
+				1E2EA17E2384E54200FB72FC /* ShowImageViewController.m */,
 				1E382776221BC9D40068CE64 /* Main.storyboard */,
 				1E382779221BC9D70068CE64 /* Assets.xcassets */,
 				1E38277B221BC9D70068CE64 /* LaunchScreen.storyboard */,
 				1E38277E221BC9D70068CE64 /* Info.plist */,
 				1E38277F221BC9D70068CE64 /* main.m */,
+				1E38278E221D04BD0068CE64 /* PrefixHeader.pch */,
 			);
 			path = ARApp;
+			sourceTree = "<group>";
+		};
+		1E382787221BFD440068CE64 /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+				1E382789221BFD610068CE64 /* ImageColorExchange.h */,
+				1E382788221BFD610068CE64 /* ImageColorExchange.mm */,
+				1E38278B221D00C60068CE64 /* UIImage+Opencv.h */,
+				1E38278C221D00C60068CE64 /* UIImage+Opencv.mm */,
+				1E559DAB2249FCFD00978119 /* VideoPlayAction.h */,
+				1E7E1088241FAAC60063285E /* UIImage+BaseDispatchImage.h */,
+				1E7E1089241FAAC60063285E /* UIImage+BaseDispatchImage.mm */,
+				1E559DAC2249FCFD00978119 /* VideoPlayAction.mm */,
+				1E3FC26623A22FAC000C4225 /* PDFLoadinViewController.h */,
+				1E3FC26723A22FAC000C4225 /* PDFLoadinViewController.m */,
+			);
+			path = "C++";
+			sourceTree = "<group>";
+		};
+		1E7E1078241FA1500063285E /* controllerList */ = {
+			isa = PBXGroup;
+			children = (
+				1E7E1079241FA1930063285E /* BaseUseViewController.h */,
+				1E7E107A241FA1930063285E /* BaseUseViewController.m */,
+				1E7E107B241FA1930063285E /* BaseUseViewController.xib */,
+				1E7E1083241FA8440063285E /* DispatchImageShowViewController.h */,
+				1E7E1084241FA8440063285E /* DispatchImageShowViewController.m */,
+				1E7E1085241FA8440063285E /* DispatchImageShowViewController.xib */,
+			);
+			path = controllerList;
+			sourceTree = "<group>";
+		};
+		1E7E107E241FA1B20063285E /* imageList */ = {
+			isa = PBXGroup;
+			children = (
+				1E7E107F241FA2450063285E /* lenna.png */,
+				1E7E108C241FDEAE0063285E /* blur.png */,
+				1E7E10942420F4CF0063285E /* shapeClose.png */,
+				1E7E10922420F48E0063285E /* shapeTest.png */,
+				1E7E1080241FA2450063285E /* lennaAll.jpg */,
+				1E7E10982421CE6C0063285E /* shapeExchange.png */,
+			);
+			path = imageList;
+			sourceTree = "<group>";
+		};
+		1E7E108B241FC4720063285E /* Porject+识别对象模板 */ = {
+			isa = PBXGroup;
+			children = (
+				1E382794221D2E7A0068CE64 /* haarcascade_eye_tree_eyeglasses.xml */,
+				1E382793221D2E7A0068CE64 /* haarcascade_frontalface_alt2.xml */,
+			);
+			path = "Porject+识别对象模板";
+			sourceTree = "<group>";
+		};
+		3F0B774BCEA93F23DBEE877E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6E34746F533E8B9867F8399 /* libPods-ARApp.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E382783221BC9D70068CE64 /* Build configuration list for PBXNativeTarget "ARApp" */;
 			buildPhases = (
+				3DBAF638DFA4A262AC273DB6 /* [CP] Check Pods Manifest.lock */,
 				1E382769221BC9D40068CE64 /* Sources */,
 				1E38276A221BC9D40068CE64 /* Frameworks */,
 				1E38276B221BC9D40068CE64 /* Resources */,
@@ -128,22 +257,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E382796221D2E7A0068CE64 /* haarcascade_eye_tree_eyeglasses.xml in Resources */,
+				1E7E10932420F48E0063285E /* shapeTest.png in Resources */,
 				1E38277D221BC9D70068CE64 /* LaunchScreen.storyboard in Resources */,
+				1E7E1082241FA2450063285E /* lennaAll.jpg in Resources */,
+				1E7E10952420F4D00063285E /* shapeClose.png in Resources */,
+				1E7E1087241FA8440063285E /* DispatchImageShowViewController.xib in Resources */,
+				1E7E10992421CE6C0063285E /* shapeExchange.png in Resources */,
 				1E38277A221BC9D70068CE64 /* Assets.xcassets in Resources */,
+				1E382795221D2E7A0068CE64 /* haarcascade_frontalface_alt2.xml in Resources */,
+				1E7E108D241FDEAE0063285E /* blur.png in Resources */,
 				1E382778221BC9D40068CE64 /* Main.storyboard in Resources */,
+				1E7E1081241FA2450063285E /* lenna.png in Resources */,
+				1E7E107D241FA1930063285E /* BaseUseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DBAF638DFA4A262AC273DB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E382769221BC9D40068CE64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E382775221BC9D40068CE64 /* ViewController.m in Sources */,
+				1E7E108A241FAAC60063285E /* UIImage+BaseDispatchImage.mm in Sources */,
+				1E38278A221BFD610068CE64 /* ImageColorExchange.mm in Sources */,
+				1E559DAD2249FCFD00978119 /* VideoPlayAction.mm in Sources */,
+				1E382775221BC9D40068CE64 /* ViewController.mm in Sources */,
 				1E382780221BC9D70068CE64 /* main.m in Sources */,
+				1E3FC26823A22FAC000C4225 /* PDFLoadinViewController.m in Sources */,
+				1E7E1086241FA8440063285E /* DispatchImageShowViewController.m in Sources */,
+				1E7E107C241FA1930063285E /* BaseUseViewController.m in Sources */,
 				1E382772221BC9D40068CE64 /* AppDelegate.m in Sources */,
+				1E2EA17F2384E54200FB72FC /* ShowImageViewController.m in Sources */,
+				1E38278D221D00C60068CE64 /* UIImage+Opencv.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,16 +455,20 @@
 		};
 		1E382784221BC9D70068CE64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDD018BF8C11136625F63F4 /* Pods-ARApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JR39JRK95R;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = ARApp/PrefixHeader.pch;
 				INFOPLIST_FILE = ARApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JiaBo.ARApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhoudou.right;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,16 +476,20 @@
 		};
 		1E382785221BC9D70068CE64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CDB6A0D106236B85FCE5C8 /* Pods-ARApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JR39JRK95R;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = ARApp/PrefixHeader.pch;
 				INFOPLIST_FILE = ARApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JiaBo.ARApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zhoudou.right;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
