@@ -1,2 +1,17 @@
-# iOS-OpenCV-BasicAPI
-Use of the underlying API
+# **iOS-OpenCV-BasicAPI简单介绍**
+   ## 一. 基础部分
+
+------------
+      1.关于OpenCV的基础API的介绍极应用：多种滤波处理， 图片平滑，图像膨胀，腐蚀， 开闭操作，上下采样，几种阈值处理， 几种常用算子，提取图像中的直线和圆，重映射， 直方图 等！用的OpenCV3.4.2版本， 下面我也会给大家展示几个里面的效果， 并且附上代码。
+
+------------
+
+      2.该demo主要是基于iOS的ObjectC和C++开发， 需要一部分C++基础, 如果需要深入了解里面的具体算法我们可以在讨论区讨论；如果只会C++可以看.mm文件， 所有用到的C++代码我都整理在.mm文件下。
+
+------------
+      3.项目运行：cd到项目根目录下有个Podfile文件， 需要cocoaPods引入架包代码如下
+ ```shell
+$ pod install
+```
+如果没安装cocoaPods 同时附上别人的[安装教程](https://www.jianshu.com/p/ab6411a05bc2 "安装教程")
+    
